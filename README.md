@@ -12,6 +12,14 @@
 The design features the club's visual identity: garnet/burgundy, royal blue, navy, and gold accents, presented through a modern, editorial-style layout.
 
 ---
+## Live Website
+
+The website is deployed using GitHub Pages.
+
+- **Live Website:** https://jangiyan.github.io/Barcelona_Football_Club_Universe/
+- **GitHub Repository:** https://github.com/jangiyan/Barcelona_Football_Club_Universe/
+
+Visit the live website to explore all 10 pages of the Barça Universe fan website.
 
 ## Pages
 
@@ -33,7 +41,7 @@ The design features the club's visual identity: garnet/burgundy, royal blue, nav
 ## Architecture
 
 ```
-barca-universe/
+Barcelona_Football_Club_Universe/
 ├── index.html
 ├── history.html
 ├── squad.html
@@ -96,55 +104,30 @@ No build tools, server, or installation required.
 4. All navigation links work as relative paths between local HTML files.
 
 > **Tip**: For the best experience (especially Google Fonts loading), open the files using a local development server such as VS Code's Live Server extension, or simply use any modern browser — the site is fully functional offline except for font loading.
-
 ---
+## Repository and Deployment
 
-## Uploading to GitHub
+The project source code is available on GitHub, and the website is hosted using GitHub Pages.
 
-### Step 1 — Create a GitHub account
-If you don't have one, go to [https://github.com](https://github.com) and sign up.
+- **GitHub Repository:** https://github.com/jangiyan/Barcelona_Football_Club_Universe/
+- **Live Website:** https://jangiyan.github.io/Barcelona_Football_Club_Universe/
 
-### Step 2 — Create a new repository
-1. Click the **+** button in the top-right corner → **New repository**
-2. Name it (e.g., `barca-universe`)
-3. Leave it **Public**
-4. Do **not** initialize with a README (you already have one)
-5. Click **Create repository**
+### Updating the Website
 
-### Step 3 — Upload your files
-**Option A — GitHub website (easiest for beginners)**
-1. On the new repository page, click **Add file** → **Upload files**
-2. Drag all your project files and folders into the upload area
-3. Make sure to upload the folder structure as-is (including `css/` and `assets/`)
-4. Scroll down, add a commit message like `"Initial upload"`, click **Commit changes**
+1. Open the project folder in VS Code.
+2. Edit the required HTML or CSS files and save your changes.
+3. Open the terminal in the project folder.
+4. Run the following commands:
 
-**Option B — Git command line**
-```bash
-# In your project folder:
-git init
-git add .
-git commit -m "Initial commit: Barça Universe website"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/barca-universe.git
-git push -u origin main
-```
-Replace `YOUR-USERNAME` and `barca-universe` with your actual GitHub username and repo name.
+   ```bash
+   git add .
+   git commit -m "Update website"
+   git push origin main
+   ```
 
----
+5. After GitHub Pages finishes deploying, refresh the live website to see your changes.
 
-## Deploying with GitHub Pages
-
-1. Go to your repository on GitHub
-2. Click **Settings** (top tab)
-3. In the left sidebar, click **Pages**
-4. Under **Source**, select **Branch: main** and folder **/ (root)**
-5. Click **Save**
-6. GitHub will show a green banner with your site URL (e.g., `https://your-username.github.io/barca-universe/`)
-7. Wait 1–3 minutes for the site to deploy
-8. Visit the URL to confirm it is live
-
-> **Note**: Replace all placeholder URLs in this README with your actual GitHub repository URL after uploading.
-
+**Note:** These commands assume that Git is already configured for the existing repository.
 ---
 
 ## Adding images
@@ -234,16 +217,6 @@ Fill in one row for each image you add. (Rows say *not added yet* until you do.)
 | `el-clasico-atmosphere` | *(not added yet)* | | |
 
 ---
-
-## Things to Do Manually
-
-- [ ] Add appropriately licensed images to `assets/images/` (see **Adding images** below and `IMAGE_MANIFEST.md`)
-- [ ] Replace the placeholder GitHub URL with your actual repository URL
-- [ ] Verify the live GitHub Pages URL once deployed
-- [ ] Check all pages display correctly in multiple browsers (Chrome, Firefox, Safari)
-
----
-
 ## Disclaimer
 
 This is an unofficial fan website created for educational purposes as a university Web Engineering assignment. It is not affiliated with, endorsed by, or connected to FC Barcelona or any of its commercial partners. All trademarks, logos, and club names belong to their respective owners.
