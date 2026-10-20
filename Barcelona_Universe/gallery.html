@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery | Barça Universe</title>
+  <meta name="description" content="A gallery celebrating FC Barcelona — the stadium, the legends, the trophies, and the beautiful game. CSS hover effects and responsive grid layout.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="site-logo" aria-label="Barça Universe Home">
+        <span class="logo-barca">B<span>AR</span>ÇA</span>
+        <span class="logo-universe">Universe</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="squad.html">Squad</a>
+        <a href="players.html">Star Players</a>
+        <a href="trophies.html">Trophies</a>
+        <a href="stadium.html">Stadium</a>
+        <a href="jerseys.html">Jerseys</a>
+        <a href="rivalries.html">Rivalries</a>
+        <a href="legends.html">Legends</a>
+        <a href="gallery.html" class="active" aria-current="page">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero page-hero--on-white banner-photo"><img class="banner-img" src="assets/images/images%20%2816%29.jfif" alt="Camp Nou packed with supporters on match day" loading="lazy" decoding="async">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span class="breadcrumb-current">Gallery</span>
+        </nav>
+        <p class="page-hero-label">Visual Stories</p>
+        <h1 class="page-hero-title">Photo Gallery</h1>
+        <p class="page-hero-subtitle">Celebrating the beauty of FC Barcelona through imagery — the stadium, the legends, the trophies, and the moments that make football magical.</p>
+        <div class="page-hero-deco" aria-hidden="true">🖼️</div>
+      </div>
+    </section>
+
+    <!-- Gallery Intro Note & Section 1: The Stadium -->
+    <section class="section section--white" aria-labelledby="stadium-heading">
+      <div class="container">
+        <!-- Notice Box -->
+        <aside style="background: var(--clr-neutral); border-left: 4px solid var(--clr-gold); padding: 1rem 1.25rem; border-radius: 0 var(--radius) var(--radius) 0; font-size: 0.88rem; color: var(--clr-muted); line-height: 1.6; margin-bottom: var(--space-xl);">
+          <strong style="color: var(--clr-navy);">Gallery note:</strong> This gallery presents themed visual sections for FC Barcelona. Images used are sourced from Wikimedia Commons (public domain / CC-licensed) where available. CSS placeholder visuals are used where licensed images were not available. Captions describe each item fully.
+        </aside>
+
+        <header class="section-header">
+          <span class="section-label">Home Ground</span>
+          <h2 id="stadium-heading" class="section-title">Camp Nou</h2>
+          <p class="section-subtitle">The sacred cathedral of Catalan football, home to breathtaking triumphs and world-class spectacles since 1957.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <!-- Item 1 -->
+          <figure class="gallery-item has-photo" tabindex="0"><img class="photo-img" src="assets/images/Camp_nou.avif" alt="Exterior of Spotify Camp Nou, home of FC Barcelona" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🏟️</span>
+              <span class="gallery-placeholder-text">Camp Nou Exterior</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Camp Nou — Opened 1957</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2 (Wide) -->
+          <figure class="gallery-item gallery-item--wide has-photo" tabindex="0"><img class="photo-img" src="assets/images/images%20%2816%29.jfif" alt="Camp Nou packed with supporters on match day" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">⚽</span>
+              <span class="gallery-placeholder-text">Match Day Atmosphere</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">A packed Camp Nou on Champions League night</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3 -->
+          <figure class="gallery-item has-photo" tabindex="0"><img class="photo-img" src="assets/images/Inside_camp%20nou.webp" alt="Inside Camp Nou: the pitch and stands seen from above" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🎤</span>
+              <span class="gallery-placeholder-text">Camp Nou Concert</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Camp Nou has hosted some of the world's greatest concerts</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: The Legends -->
+    <section class="section section--neutral" aria-labelledby="legends-gallery-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">All Time Greats</span>
+          <h2 id="legends-gallery-heading" class="section-title">Legendary Moments</h2>
+          <p class="section-subtitle">Immortal icons whose masterclasses and charisma permanently redefined the sporting universe.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <!-- Item 1 (Tall) -->
+          <figure class="gallery-item gallery-item--tall has-photo" tabindex="0"><img class="photo-img" src="assets/images/cruyf.jfif" alt="Johan Cruyff in Barcelona colours, arm raised towards the crowd" style="object-position:38% 30%;" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">👑</span>
+              <span class="gallery-placeholder-text">Johan Cruyff — 1973–1978</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Johan Cruyff — The man who changed Barcelona forever</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2 -->
+          <figure class="gallery-item has-photo" tabindex="0"><img class="photo-img" src="assets/images/ronaldihno.jfif" alt="Ronaldinho in Barcelona kit holding a golden trophy" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">⚽</span>
+              <span class="gallery-placeholder-text">Ronaldinho 2003–2008</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Ronaldinho — Pure joy in football form</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3 -->
+          <figure class="gallery-item has-photo" tabindex="0"><img class="photo-img" src="assets/images/Messi_image.jfif" alt="Lionel Messi in Barcelona kit holding the golden Ballon d'Or trophy" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🌟</span>
+              <span class="gallery-placeholder-text">Lionel Messi 2004–2021</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Lionel Messi — 672 goals in 778 appearances</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 4 (Tall) -->
+          <figure class="gallery-item gallery-item--tall has-photo" tabindex="0"><img class="photo-img" src="assets/images/Xavi.webp" alt="Xavi Hernández dribbling the ball in a Barcelona shirt" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🏅</span>
+              <span class="gallery-placeholder-text">Xavi &amp; Iniesta</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Xavi and Iniesta — The midfield heartbeat of a golden era</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: The Trophies -->
+    <section class="section section--dark" aria-labelledby="trophies-gallery-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label section-label--light">Honours</span>
+          <h2 id="trophies-gallery-heading" class="section-title">Glory &amp; Silverware</h2>
+          <p class="section-subtitle">A legacy forged in gold and silver through relentless pursuit of footballing perfection.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <!-- Item 1 -->
+          <figure class="gallery-item has-photo" style="background: linear-gradient(135deg, #C5A028 0%, #8B1C3C 100%);" tabindex="0"><img class="photo-img" src="assets/images/UCL.avif" alt="The UEFA Champions League trophy on the grass" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🏆</span>
+              <span class="gallery-placeholder-text">UEFA Champions League Finals</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Five Champions League triumphs — 1992, 2006, 2009, 2011, 2015</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2 -->
+          <figure class="gallery-item has-photo" style="background: linear-gradient(135deg, #003DA5 0%, #001F5B 100%);" tabindex="0"><img class="photo-img" src="assets/images/laliga_title.jfif" alt="The La Liga trophy on a red plinth" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🥇</span>
+              <span class="gallery-placeholder-text">La Liga Champions</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">27 La Liga titles — the most decorated club in Spain's top flight</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3 -->
+          <figure class="gallery-item has-photo" style="background: linear-gradient(135deg, #001F5B 0%, #8B1C3C 100%);" tabindex="0"><img class="photo-img" src="assets/images/copa_del_rey.jfif" alt="The Copa del Rey trophy" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🛡️</span>
+              <span class="gallery-placeholder-text">Copa del Rey</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">31 Copa del Rey victories — a record in Spanish football</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Historic Kits -->
+    <section class="section section--white" aria-labelledby="kits-gallery-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Through The Years</span>
+          <h2 id="kits-gallery-heading" class="section-title">The Iconic Jerseys</h2>
+          <p class="section-subtitle">From classic vertical stripes to vibrant away colors, each jersey carries the spirit of its era.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <!-- Item 1 (Home) -->
+          <figure class="gallery-item has-photo" style="background: linear-gradient(to right, #8B1C3C 33%, #003DA5 33%);" tabindex="0"><img class="photo-img photo-img--contain" src="assets/images/barca_home_jersey%20%282%29.webp" alt="FC Barcelona home jersey, front and back, with the garnet and blue stripes" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">👕</span>
+              <span class="gallery-placeholder-text">Classic Garnet &amp; Blue Stripes</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">The iconic garnet and blue vertical stripes — worn since 1900</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2 (Away) -->
+          <figure class="gallery-item has-photo" style="background: linear-gradient(135deg, #F5E642 0%, #E8C800 100%);" tabindex="0"><img class="photo-img photo-img--contain" src="assets/images/barca_Second_jersey.webp" alt="FC Barcelona second (away) jersey, front and back, in black and purple" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true" style="color: #1A1A2E;">👕</span>
+              <span class="gallery-placeholder-text" style="color: #1A1A2E;">Away Kit — Yellow</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Away kit — bold yellow for European and away fixtures</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3 (Third) -->
+          <figure class="gallery-item has-photo" style="background: linear-gradient(135deg, #1A1A2E 0%, #003DA5 100%);" tabindex="0"><img class="photo-img photo-img--contain" src="assets/images/Barca_third_jersey.webp" alt="FC Barcelona third jersey in turquoise" loading="lazy" decoding="async">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">👕</span>
+              <span class="gallery-placeholder-text">Third Kit — Navy</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">Third kit — deep navy with royal blue details</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: El Clásico -->
+    <section class="section section--garnet" aria-labelledby="clasico-gallery-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label section-label--light">The Greatest Rivalry</span>
+          <h2 id="clasico-gallery-heading" class="section-title">El Clásico</h2>
+          <p class="section-subtitle">Passion, intensity, and world-stopping drama whenever the two giants collide.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <!-- Item 1 (Wide) -->
+          <figure class="gallery-item gallery-item--wide" style="background: linear-gradient(to right, #8B1C3C 0%, #001F5B 50%, #C0C0C0 100%);" tabindex="0">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">⚔️</span>
+              <span class="gallery-placeholder-text">El Clásico — Barça vs Real Madrid</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">El Clásico — the most watched club fixture in the world</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2 -->
+          <figure class="gallery-item" style="background: linear-gradient(135deg, #001F5B 0%, #8B1C3C 100%);" tabindex="0">
+            <div class="gallery-placeholder" style="position:absolute; inset:0;">
+              <span class="gallery-placeholder-icon" aria-hidden="true">🔥</span>
+              <span class="gallery-placeholder-text">Camp Nou on El Clásico Night</span>
+            </div>
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption">The atmosphere at Camp Nou during El Clásico is unlike any other</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section CTA -->
+    <section class="section section--white text-center" aria-label="Explore Trophies">
+      <div class="container">
+        <header class="section-header" style="margin-bottom: var(--space-md);">
+          <span class="section-label">Glory &amp; Honours</span>
+          <h2 class="section-title">Explore The Trophies</h2>
+          <p class="section-subtitle">Discover all 27 La Liga titles, 5 Champions League crowns, 31 Copas del Rey, and more.</p>
+        </header>
+        <a href="trophies.html" class="btn btn-primary">Explore Our Trophies</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo">B<span>AR</span>ÇA <span style="color:var(--clr-white)">Universe</span></span>
+          <p class="footer-disclaimer">This is an unofficial fan website created for educational purposes as part of a university Web Engineering assignment. It is not affiliated with, endorsed by, or connected to FC Barcelona or any of its commercial partners. All trademarks belong to their respective owners.</p>
+        </div>
+        <div>
+          <p class="footer-nav-title">Explore</p>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="squad.html">Squad</a>
+            <a href="players.html">Star Players</a>
+            <a href="trophies.html">Trophies</a>
+            <a href="stadium.html">Stadium</a>
+            <a href="jerseys.html">Jerseys</a>
+            <a href="rivalries.html">Rivalries</a>
+            <a href="legends.html">Legends</a>
+            <a href="gallery.html">Gallery</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2025 Barça Universe &mdash; An unofficial fan site for educational purposes only.</p>
+        <div class="footer-colors" aria-hidden="true">
+          <span class="footer-color-swatch" style="background:#8B1C3C;" title="Garnet"></span>
+          <span class="footer-color-swatch" style="background:#003DA5;" title="Blue"></span>
+          <span class="footer-color-swatch" style="background:#C5A028;" title="Gold"></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

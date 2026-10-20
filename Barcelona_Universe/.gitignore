@@ -1,0 +1,43 @@
+# Git ignore for Barça Universe — static HTML/CSS website
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor/IDE directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# Log files
+*.log
+npm-debug.log*
+
+# No node_modules, build output, or package files
+# (this project intentionally has no build dependencies)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Environment / secrets (just in case — never add API keys)
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
